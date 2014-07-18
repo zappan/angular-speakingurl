@@ -1,0 +1,20 @@
+/* jshint quotmark: false */
+
+{
+    "bitwise"   : true    // disallows bitwise operators (see jsHint docs why; override per-file if needed)
+  , "camelcase" : true    // variable naming check for consistency
+  , "curly"     : true
+  , "eqeqeq"    : true
+  , "esnext"    : true
+  , "indent"    : false
+  , "immed"     : true
+  , "latedef"   : true
+  , "laxcomma"  : true
+  , "newcap"    : true
+  , "noarg"     : true
+  , "node"      : true    // allows node globals
+  , "onevar"    : true
+  , "quotmark"  : "single"
+  , "strict"    : false   // will complain on missing 'use strict' => turn on for compiled code jshinting
+  , "undef"     : true
+}

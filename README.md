@@ -12,4 +12,23 @@ You can download angular-speakingurl by:
 
 ## How to use angular-speakingurl
 
-Coming soon...
+This module exposes a `$speakingurl` service that can be used in the code,
+and a `getSlug` filter that can be used in templates directly:
+
+```
+MyAngularModule = (function () {
+  var myModule = angular.module('my.module', ['angular-speakingurl']);
+
+  myModule.controller('MyController', function ($scope, $speakingurl, model) {
+    $scope.model   = model;
+    $scope urlSlug = $speakingurl.getSlug(model.name);
+  });
+```
+
+```
+<ul>
+  <li ng-repeat="user in users">
+    <a href="/user/{{ user.fullName | getSlug }}" ng-bind="user.fullName"></a>
+  </li>
+</ul>
+```
