@@ -1,0 +1,27 @@
+{
+  "name": "angular-speakingurl",
+  "version": "1.0.0",
+  "homepage": "https://github.com/zappan/angular-speakingurl",
+  "authors": [
+    "Tomislav Capan <tomislav.capan@gmail.com>"
+  ],
+  "description": "Speaking URL wrapper for AngularJS",
+  "main": "src/speakingurl.js",
+  "keywords": [
+    "seo",
+    "slug",
+    "angular",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "speakingurl": "~0.9.1"
+  }
+}
