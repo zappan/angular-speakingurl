@@ -6,7 +6,7 @@
     "Tomislav Capan <tomislav.capan@gmail.com>"
   ],
   "description": "Speaking URL wrapper for AngularJS",
-  "main": "src/speakingurl.js",
+  "main": "src/angular-speakingurl.js",
   "keywords": [
     "seo",
     "slug",
