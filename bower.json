@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "speakingurl": "~0.20.1"
+    "speakingurl": "^1.0.0"
   }
 }
