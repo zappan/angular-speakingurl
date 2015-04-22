@@ -35,6 +35,7 @@ MyAngularModule = (function () {
 
 ## Changelog
 
+* v1.1.0 Following versioning match with speakingurl dependency
 * v1.0.2 Bump speakingurl dependency version to ^1.0.0
 * v1.0.2 Bump speakingurl dependency version to 0.20.1
 * v1.0.1 Fixing a reference to angular-speakingurl module in bower.json
