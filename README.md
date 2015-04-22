@@ -32,3 +32,10 @@ MyAngularModule = (function () {
   </li>
 </ul>
 ```
+
+## Changelog
+
+* v1.0.2 Bump speakingurl dependency version to ^1.0.0
+* v1.0.2 Bump speakingurl dependency version to 0.20.1
+* v1.0.1 Fixing a reference to angular-speakingurl module in bower.json
+* v1.0.0 Initial release
