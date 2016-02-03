@@ -35,6 +35,7 @@ MyAngularModule = (function () {
 
 ## Changelog
 
+* v9.0.0 Bump speakingurl dependency version to ^9.0.0 
 * v8.0.2 Bump speakingurl dependency version to ^8.0.2
 * v2.0.0 Match the new speakingurl release [see changelog](https://github.com/pid/speakingurl/blob/master/CHANGELOG.md)
 * v1.1.0 Following versioning match with speakingurl dependency
